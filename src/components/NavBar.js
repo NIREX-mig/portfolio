@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
 import FormGroup from '@mui/material/FormGroup';
@@ -54,10 +54,6 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 
 
 const NavBar = (props) => {
-    const [state, setState] = useState("light")
-    const handleDarkMode = () => {
-       document.body.color 
-    }
 
     return (
         <>
@@ -78,7 +74,7 @@ const NavBar = (props) => {
                             <NavLink className="mr-5 hover:text-gray-900" to="/contect">Contect</NavLink>
                         </nav>
                         <FormControlLabel
-                            control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked  onClick={handleDarkMode}/>}
+                            control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked />}
                         />
                     </div>
                 </header>
