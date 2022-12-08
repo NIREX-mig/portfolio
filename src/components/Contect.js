@@ -3,6 +3,10 @@ import React from 'react'
 const Contect = () => {
     return (
         <>
+<form
+  action="https://formspree.io/f/mjvznelk"
+  method="POST"
+>
             <section className="text-gray-600 body-font relative">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col text-center w-full mb-12">
@@ -37,6 +41,7 @@ const Contect = () => {
                     </div>
                     </div>
             </section>
+<form/>
         </>
     );
 }
