@@ -9,7 +9,7 @@ const Contect = () => {
         return (
             <>
                 <p className='text-center text-3xl '>Thanks for joining!</p>
-                <NavLink to='/' className="container flex justify-center my-5" > <button className='inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-lg rounded-3xl'>Go Back</button>
+                <NavLink to='/' className="container flex justify-center my-5" > <button className='inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-lg rounded-3xl'>Go To Home</button>
             </NavLink>
             </>
         );
@@ -45,7 +45,7 @@ const Contect = () => {
                                     </div>
                                 </div>
                                 <div className="p-2 w-full">
-                                    <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                                    <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Submit</button>
                                 </div>
 
                             </div>
