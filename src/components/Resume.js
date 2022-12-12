@@ -8,7 +8,6 @@ const Resume = () => {
           <h2 className='text-center my-4 text-4xl font-bold'>RESUME</h2>
           <div class="flex flex-wrap -m-4">
 
-            {/* Technical skills */}
             <div class="p-8 md:w-1/3">
               <div class="flex rounded-lg h-full bg-white border p-8 flex-col" style={{ boxShadow: '2px 2px 5px 1px rebeccapurple' }}>
                 <div class="flex items-center mb-3">
@@ -31,8 +30,6 @@ const Resume = () => {
                 </div>
               </div>
             </div>
-
-            {false ? 'Technical Knowledge' : ""}
 
             <div class="p-8 md:w-1/3">
               <div class="flex rounded-lg h-full bg-white border p-8 flex-col" style={{ boxShadow: '2px 2px 5px 1px rebeccapurple' }}>
@@ -62,8 +59,6 @@ const Resume = () => {
                 </div>
               </div>
             </div>
-
-            {false ? "Education section " : ''}
 
             <div class="p-8 md:w-1/3">
               <div class="flex rounded-lg h-full bg-white p-8 flex-col border" style={{ boxShadow: '2px 2px 5px 1px rebeccapurple' }}>
