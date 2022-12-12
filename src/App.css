@@ -207,3 +207,20 @@
 .font-awesome{ 
   cursor: pointer;
 }
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+table td{
+  padding: 0.40rem;
+  vertical-align: top;
+  
+}
+
