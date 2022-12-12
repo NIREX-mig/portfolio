@@ -3,7 +3,6 @@ import React from 'react';
 import image from '../images/about_pic.jpg'
 import svg from '../images/hackerearth.svg'
 
-
 const About = () => {
     return (
         <>
@@ -19,8 +18,8 @@ const About = () => {
                         display: 'flex',
                         alignItems: ' flex-start'
                     }}>
-                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900" >ABOUT ME
-                            <div className='line'></div>
+                        <h1 className=" title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900" >ABOUT ME
+                            <div className=''></div>
                             <br className="hidden lg:inline-block" />
                         </h1>
                         <p className="mb-8 leading-relaxed font-semibold">Hi there. My is Ashish Kumar. I'm a web devloper and Softwere devloper. I have a degree in Bacholar of Computer Application. Freelance web design and mobile Application devlopemet is what I'm doing presently.</p>
